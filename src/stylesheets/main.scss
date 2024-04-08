@@ -1,6 +1,11 @@
 // Your styles go here
 @import "@fortawesome/fontawesome-free/css/all.css";
-$primary: #f1137b;
+$primary: #7400cc;
+$secondary: #33b1bf;
+$danger: #bf336b;
+$info: #0fd8bd;
+$warning: #36c23a;
+// $primary: #f1137b;
 @import "bootstrap/scss/bootstrap";
 
 
@@ -10,7 +15,8 @@ $primary: #f1137b;
 
 #gallery {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr 2fr 1fr 1fr 2fr;
+    grid-template-columns: repeat(4, 3fr) 2fr repeat(2, 1fr) 2fr;
+    // grid-template-columns: 3fr 3fr 3fr 3fr 2fr 1fr 1fr 2fr;
     gap: .4rem;
     margin: 1rem;
 
@@ -46,4 +52,7 @@ $total-imgs: 13;
 .box {
     min-height: 100px;
     max-width: 100px;
+  }
+  .card-box {
+    min-height: 100px;
   }

@@ -10,7 +10,413 @@
 
 <body>
   <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
+  <nav class="navbar bg-body-light">
+    <div class="container-fluid">
+      <a class="navbar-brand h1 text-primary" href="#">
+        <img src="./images/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text me-1">
+        Melissa O'Neil
+      </a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#features"><strong>Features</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#plans"><strong>Plans</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing"><strong>Pricing</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery"><strong>Gallery</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects"><strong>Projects</strong></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid gradient-container py-5 mb-5" id="jumbotron">
+    <div class="content">
+      <h1 class="h1"><strong>A bootstrap demo</strong></h1>
+      <p class="lead">
+        <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium obcaecati voluptas asperiores laborum facere laboriosam, sapiente ex commodi unde quam dolorem tempora assumenda error voluptatibus exercitationem qui quasi odio maxime!</strong>
+      </p>
+      <div class="container-fluid btn-container text-center">
+        <button type="button" class="btn btn-info btn-lg">Click here to see more</button>
+        <button type="button" class="btn btn-warning btn-lg">Click here to see a demo</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5" id="features">
+    <div class="h1 text-center text-primary">Features</div>
+    <p class="lead text-secondary"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+      corporis, explicabo maiores sequi non est. Provident aliquid soluta, officiis id iure voluptatem itaque sed magnam
+      reiciendis!</strong></p>
+    <div class="row">
+      <div class="col">
+
+        <div class="card" aria-hidden="true">
+          <img src="./images/blank.png" class="card-img-top placeholder-glow" alt="...">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-7"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-8"></span>
+            </p>
+            <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" aria-hidden="true">
+          <img src="./images/blank.png" class="card-img-top placeholder-glow" alt="...">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-7"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-8"></span>
+            </p>
+            <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" aria-hidden="true">
+          <img src="./images/blank.png" class="card-img-top placeholder-glow" alt="...">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-7"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-8"></span>
+            </p>
+            <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5" id="plans">
+    <div class="row">
+      <div class="col-5 p-5 pt-0">
+        <div class="h1 text-primary text-center mb-4">Plans</div>
+        <p class="lead text-secondary"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+          corporis, explicabo maiores sequi non est. Provident aliquid soluta, officiis id iure voluptatem itaque sed magnam
+          reiciendis!</strong></p>
+      </div>
+      <div class="col">
+        <table class="table">
+          <thead class="border-2 border-primary border-start-0 border-end-0">
+            <tr>
+              <th scope="col">Features</th>
+              <th class="text-center col-md-3" scope="col">Free</th>
+              <th class="bg-primary text-white text-center col-md-3" scope="col">Pro</th>
+              <th class="text-center col-md-3" scope="col">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="">
+              <td scope="row">Lorem ipsum dolor</td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+              <td class="bg-primary text-white text-center"><i class="far fa-check-circle"></i></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">Sit amet consectetur</td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+              <td class="bg-primary text-white text-center"><i class="far fa-check-circle"></i></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">Adipisicing elit atque</td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+              <td class="bg-primary text-white text-center"><i class="far fa-check-circle"></i></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">Nemo rerum esse tempore</td>
+              <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+              <td class="bg-primary text-white text-center"><i class="far fa-check-circle"></i></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">Vel tenetur dicta</td>
+              <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+              <td class="bg-primary text-white text-center"><i class="far fa-check-circle"></i></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">mollitia laboriosam</td>
+              <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+              <td class="bg-primary text-white text-center"><i class="far fa-check-circle"></i></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">quaerat magnam ipsam </td>
+              <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+              <td class="bg-primary text-white text-center text-center"></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td scope="row">Vero magnam ducimus</td>
+              <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+              <td class="bg-primary text-white text-center"></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+            <tr class="border-top-0 border-start-0 border-end-0 border-primary border-2">
+              <td scope="row">Eligendi blandtiis</td>
+              <td class="text-center text-danger"><i class="fas fa-times" ></i></td>
+              <td class="bg-primary text-white text-center"></td>
+              <td class="text-center"><i class="far fa-check-circle"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5 text-center" id="pricing">
+    <div class="h1 text-primary">Pricing</div>
+    <p class="lead text-secondary"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+      corporis, explicabo maiores sequi non est. Provident aliquid soluta, officiis id iure voluptatem itaque sed magnam
+      reiciendis!</strong></p>
+    <div class="row">
+      <div class="col">
+        <div class="card border-primary">
+          <h5 class="card-header m-0">Free</h5>
+          <div class="card-body">
+            <h2 class="card-title mx-auto my-5">$0/mo</h2>
+            <div class="container-fluid btn btn-outline-primary mb-5">Sign up for free</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"></li>
+              <li class="list-group-item">10 users included</li>
+              <li class="list-group-item">2 GB of storage</li>
+              <li class="list-group-item">Email support</li>
+              <li class="list-group-item">Help center access</li>
+              <li class="list-group-item"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-secondary">
+          <h5 class="card-header bg-secondary  text-white m-0">Pro</h5>
+          <div class="card-body">
+            <h2 class="card-title  mx-auto my-5">$15/mo</h2>
+            <div class="container-fluid btn btn-secondary mb-5">Get started</div>
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item"></li>
+              <li class="list-group-item">20 users included</li>
+              <li class="list-group-item">10 GB of storage</li>
+              <li class="list-group-item">Priority email support</li>
+              <li class="list-group-item">Help center access</li>
+              <li class="list-group-item"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-primary ">
+          <h5 class="card-header bg-primary text-white m-0">Enterprise</h5>
+          <div class="card-body">
+            <h2 class="card-title  mx-auto my-5">$29/mo</h2>
+            <div class="container-fluid btn btn-primary text-white mb-5">Contact us</div>
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item"></li>
+              <li class="list-group-item">30 users included</li>
+              <li class="list-group-item">20 GB of storage</li>
+              <li class="list-group-item">Priority email support</li>
+              <li class="list-group-item">Help center access</li>
+              <li class="list-group-item"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container mx-auto mb-5" id="gallery">
+    
+    <div class="h1 text-primary text-center gallery-heading">Gallery</div>
+    <div class="img1"><img src="./images/img1.avif" alt="naturescene"></div>
+    <div class="img2"><img src="./images/img2.avif" alt="naturescene"></div>
+    <div class="img3"><img src="./images/img3.avif" alt="naturescene"></div>
+    <div class="img4"><img src="./images/img4.avif" alt="naturescene"></div>
+    <div class="img5"><img src="./images/img5.avif" alt="naturescene"></div>
+    <div class="img6"><img src="./images/img6.avif" alt="naturescene"></div>
+    <div class="img7"><img src="./images/img7.avif" alt="naturescene"></div>
+    <div class="img8"><img src="./images/img8.avif" alt="naturescene"></div>
+    <div class="img9"><img src="./images/img9.avif" alt="naturescene"></div>
+    <div class="img10"><img src="./images/img10.jpg" alt="naturescene"></div>
+    <div class="img11"><img src="./images/img11.avif" alt="naturescene"></div>
+    <div class="img12"><img src="./images/img12.avif" alt="naturescene"></div>
+    <div class="img13"><img src="./images/img13.avif" alt="naturescene"></div>
+
+
+  </div>
+  <div class="container mx-auto" id="projects">
+    <div class="h1 text-center text-primary mb-3">Top projects</div>
+    <p class="lead text-center text-secondary mb-4"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+      corporis, explicabo maiores sequi non est. Provident aliquid soluta, officiis id iure voluptatem itaque sed magnam
+      reiciendis!</strong></p>
+  <div class="container mb-5">
+    <div class="row mb-1">
+      <div class="col-6">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="box bg-primary h-100">&nbsp;</div>
+              </div>
+              <div class="col-9">
+                <h5 class="card-title">Necessitatibus vitae quasi</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+                  corporis!</p>
+              </div> 
+            </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="box bg-primary h-100">&nbsp;</div>
+              </div>
+              <div class="col-9">
+                <h5 class="card-title">Sit amet consectetur adipisicing elit</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+                  corporis!</p>
+              </div> 
+            </div>
+        </div>
+      </div>    
+    </div>
+    <div class="row mb-1">
+      <div class="col-6">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="box bg-primary h-100">&nbsp;</div>
+              </div>
+              <div class="col-9">
+                <h5 class="card-title">Explicabo maiores sequi non est</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta Lorem ipsum , adipisicing elit.
+                  corporis!</p>
+              </div> 
+            </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="box bg-primary h-100">&nbsp;</div>
+              </div>
+              <div class="col-9">
+                <h5 class="card-title">Voluptatibus illo fugit veritatis</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+                  corporis!</p>
+              </div> 
+            </div>
+        </div>
+      </div>  
+    </div>
+    <div class="row mb-1">
+      <div class="col-6">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="box bg-primary h-100">&nbsp;</div>
+              </div>
+              <div class="col-9">
+                <h5 class="card-title">Fugit repellendus vel tenetur dicta</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+                  corporis!</p>
+              </div> 
+            </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="box bg-primary h-100">&nbsp;</div>
+              </div>
+              <div class="col-9">
+                <h5 class="card-title">Minima esse ducimus voluptatibus</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus vel tenetur dicta
+                  corporis!</p>
+              </div> 
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer class="footer bg-dark text-white py-3">
+    <div class="container">
+      
+      <div class="row mt-3">
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="./images/bootstrap-logo.svg" alt="Logo" width="50" height="40">
+          <small class="text-secondary">&copy; 2021</small>
+        </div>
+        <div class="col-3">
+          <h5>Features</h5>
+          <ul class="list-unstyled">
+            <li class="text-secondary">Cool stuff</li>
+            <li class="text-secondary">Random feature</li>
+            <li class="text-secondary">Team feature</li>
+            <li class="text-secondary">Stuff for developers</li>
+            <li class="text-secondary">Another one</li>
+            <li class="text-secondary">Last time</li>
+          </ul>
+      </div>
+      <div class="col-3">
+        <h5>Resources</h5>
+        <ul class="list-unstyled">
+          <li class="text-secondary">Resource</li>
+          <li class="text-secondary">Resource name</li>
+          <li class="text-secondary">Another resource</li>
+          <li class="text-secondary">Final resource</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h5>About</h5>
+        <ul class="list-unstyled">
+          <li class="text-secondary">Team</li>
+          <li class="text-secondary">Locations</li>
+          <li class="text-secondary">Privacy</li>
+          <li class="text-secondary">Terms</li>
+        </ul>
+      </div>
+
+
+
+
+
+
+    </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./javascripts/main.js"></script>
 </body>
+
 </html>
